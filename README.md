@@ -27,5 +27,3 @@ Comment body.
 Comment body.
 
 <img src="svg/sign.svg" alt="Pablo's agent · human-approved">
-
-The images are generated; edit the generator rather than the SVGs by hand.
