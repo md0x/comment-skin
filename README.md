@@ -11,6 +11,7 @@ linked from the comment body.
 | `svg/title-low.svg` | Above a low-severity review finding |
 | `svg/title-note.svg` | Above any other agent comment |
 | `svg/title-fixed.svg` | Above a reply saying a review comment was fixed |
+| `svg/title-approved.svg` | Above a pull request approval |
 | `svg/sign.svg` | Sign-off for comments a human approved before posting |
 | `svg/sign-auto.svg` | Sign-off for comments an agent posted on its own |
 
