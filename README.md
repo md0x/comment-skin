@@ -25,10 +25,11 @@ Comment body.
 ```
 
 Agent-posted comments can name the harness and model after the sign-off.
-`align="absmiddle"` keeps the text centred on the tag (GitHub strips `style`):
+GitHub strips `style` and `<small>`, so wrap the line in `<sub>` to keep the text
+small, and use `align="absmiddle"` to centre it on the tag:
 
 ```html
-<img src="https://raw.githubusercontent.com/md0x/comment-skin/main/svg/sign-auto.svg" alt="Pablo's agent · auto-posted" align="absmiddle"> <small>Codex · gpt-5.2</small>
+<sub><img src="https://raw.githubusercontent.com/md0x/comment-skin/main/svg/sign-auto.svg" alt="Pablo's agent · auto-posted" align="absmiddle"> Codex · gpt-5.2</sub>
 ```
 
 <img src="svg/title-medium.svg" alt="Review · Medium">
